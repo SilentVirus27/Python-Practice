@@ -1,0 +1,6 @@
+a=int(input("Enter number:"))
+b=int(input("Enter number:"))
+c=int(input("Enter number:"))
+if (a>=b) & (a>=c):print("Greatest Number :",a)
+elif (b>=a) & (b>=c):print("Greatest Number :",b)
+elif (c>=a) & (c>=b):print("Greatest Number :",c) 
